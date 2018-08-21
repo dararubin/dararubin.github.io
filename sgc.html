@@ -15,7 +15,7 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="css/freelancer.min.css" rel="stylesheet">
+    <link href="css/freelancer.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -33,7 +33,7 @@
 
     <body id="page-top" class="index">
 
-        <!-- Navigation -->
+       <!-- Navigation -->
         <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
             <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -53,47 +53,28 @@
                         <li >
                             <a href="index.html">Home</a>
                         </li>
-                        <li >
-                            <a href=""></a>
-                        </li>
-                         <li >
-                            <a href=""></a>
-                        </li>
-                         <li >
-                            <a href=""></a>
-                        </li>
-                         <li >
-                            <a href=""></a>
-                        </li>
-                        <li >
-                            <div class="dropdown">
-                                <button onclick="myFunction()" class="dropbtn">Portfolio</button>
-                                <div id="myDropdown" class="dropdown-content">
-                                    <a href="sgc.html">Current Work</a>
-                                    <a href="stories.html">Stories</a>
-                                    <a href="videos.html">Videos</a>
-                                    <a href="flyers.html">Flyers</a>
-                                    <a href="design.html">Design Class Projects</a>
-                                    <a href="media.html">Media Design Class Work</a>
-                                    <a href="sites.html">Other Websites</a>
-                                </div>
-                            </div>
-                        </li>
-                        <li >
-                            <a href="about.html">About</a>
-                        </li>
+                        
+                        <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="sgc.html">Current Work</a>
+                    <a class="dropdown-item" href="multimedia.html">Multimedia</a>
+                    <a class="dropdown-item" href="design.html">Segal Design Class Projects</a>
+                    <a class="dropdown-item" href="sites.html">Other Websites</a>
+                </div>
+            </li>
+                        
                         <li >
                             <a href="resume.html">Resume</a>
                         </li>
-                        <li >
-                            <a href="contact.html">Contact</a>
-                        </li>
+                        
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
             </div>
             <!-- /.container-fluid -->
         </nav>
+<!--/.Navbar-->
 
        
 
@@ -102,8 +83,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-left">
-                        <h3 style="text-align: center;">Current Work</h3>
-                        <p style="color: black; text-align: left; font-size: 12pt;  position: relative; ;">From January to March 2017 I did my Journalism Residency, a one-quarter internship, at Scranton Gillette Communications where I was a design intern. I continued as a full-time intern through August 2017 when I became the Creative Services Coordinator. Below is a sample of some of the work I've done over the past year.</p>
+                        <h2 style="text-align: center; font-size: 35px;">Current Work</h2>
+                        <br>
+                        <p style="color: black; text-align: left; font-size: 12pt;  position: relative; ;">I was a design intern at Scranton Gillette Communications from January - August 2017. I started as the Creative Services Coordinator that September - a position in which I still get to assist with some design work. Here's a sample of the projects I have worked on.</p>
                         
                         <hr>
                     </div>
@@ -129,17 +111,27 @@
                             <img src="img/sgc/newsletter_templates.jpg" class="img-responsive" alt="">
                         </a>
                     </div>
-                    
                     <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
-                                    <p style="color: white; font-size: 15pt;">NEWSLETTER HEADERS</p>
+                                    <p style="color: white; font-size: 15pt;">MICROSITES</p>
                                 </div>
                             </div>
-                            <img src="img/sgc/newsletter_headers.jpg" class="img-responsive" alt="">
+                            <img src="img/sgc/microsite.jpg" class="img-responsive" alt="">
                         </a>
                     </div>
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <p style="color: white; font-size: 15pt;">WEB ADS</p>
+                                </div>
+                            </div>
+                            <img src="img/sgc/gifs.jpg" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                    
                     <div class="col-sm-4 portfolio-item">
                         <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
@@ -148,26 +140,6 @@
                                 </div>
                             </div>
                             <img src="img/sgc/sell_sheet.jpg" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <p style="color: white; font-size: 15pt;">MAGAZINE PAGE LAYOUTS</p>
-                                </div>
-                            </div>
-                            <img src="img/sgc/magazine.jpg" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <p style="color: white; font-size: 15pt;">GIFS</p>
-                                </div>
-                            </div>
-                            <img src="img/sgc/gifs.jpg" class="img-responsive" alt="">
                         </a>
                     </div>
                     <div class="col-sm-4 portfolio-item">
@@ -181,6 +153,17 @@
                         </a>
                     </div>
                     <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <p style="color: white; font-size: 15pt;">MAGAZINE PAGE LAYOUTS</p>
+                                </div>
+                            </div>
+                            <img src="img/sgc/magazine.jpg" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                    
+                    <div class="col-sm-4 portfolio-item">
                         <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
@@ -191,13 +174,13 @@
                         </a>
                     </div>
                     <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
+                        <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
-                                    <p style="color: white; font-size: 15pt;">MICROSITES</p>
+                                    <p style="color: white; font-size: 15pt;">NEWSLETTER HEADERS</p>
                                 </div>
                             </div>
-                            <img src="img/sgc/microsite.jpg" class="img-responsive" alt="">
+                            <img src="img/sgc/newsletter_headers.jpg" class="img-responsive" alt="">
                         </a>
                     </div>
                     <div class="col-sm-4 portfolio-item">
@@ -218,23 +201,23 @@
         
 
         <!-- Footer -->
-        <footer class="text-center">
+       <footer class="text-center" style="padding-bottom: 30px;">
             <div class="footer-above">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-3 text-left" >
-                            MENU 
-                            <div style=" border-top: 1px solid white; width: 100%;"></div>
-                            <br>
-                            <a style="color: white; " href="index.html">Home</a>
-                            <br>
-                            <a style="color: white; " href="sgc.html">Portfolio</a> 
-                            <br>
-                            <a style="color: #fff; " href="about.html">About</a>
-                            <br>
+                        
+                        
+                            <a style="color: white; " href="index.html">Home</a> / 
+                            <a style="color: #fff; " href="sgc.html">Current</a> / 
+                            <a style="color: #fff; " href="multimedia.html">Multimedia</a> / 
+                            <a style="color: #fff; " href="design.html">Design Class Projects</a> / 
+                            <a style="color: #fff; " href="sites.html">Other Websites</a> / 
                             <a style="color: #fff; " href="resume.html">Resume</a>
+                        
                             <br>
-                            <a style="color: #fff; " href="contact.html">Contact</a>
+                        
+                            Contact:
+                            <a href="mailto:dararubin@gmail.com">dararubin@gmail.com</a>
                             <br>
                             <br>
                         </div>
@@ -249,7 +232,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
-                            Copyright &copy; Dara Rubin 2016
+                            Copyright &copy; Dara Rubin 2018
                         </div>
                     </div>
                 </div>
@@ -322,16 +305,15 @@
                                     </li>
                                     
                                 </ul>
-                                <img src="img/sgc/rb_infrastructure.jpg" class="img-responsive img-centered" alt="">
-                                <img src="img/sgc/rb_podcast.jpg" class="img-responsive img-centered" alt="">
+                                <img src="img/sgc/scoop_2018.jpg" width="400" class="img-responsive img-centered" alt="The Scoop" style="border: 1px solid black;">
+                                <div style="width: 400px; margin:0 auto;"><p><strong>The Scoop - TABPI 2018 Online Award Winner </strong><br> "When Dara was an intern, she designed The Scoop template, which we still use today. This newsletter is award-winning — with judges mentioning its sleek design as a standout feature — and Dara was an integral part of this achievement." - Nicole Davis, Editor-in-Chief, <em>Furniture, Lighting &amp; Decor</em></p></div>
+                                <br>
+                                <!-- <img src="img/sgc/rb_infrastructure.jpg" class="img-responsive img-centered" alt=""> -->
+                                <img src="img/sgc/rb_podcast.jpg"  class="img-responsive img-centered" alt="">
                                 <img src="img/sgc/ld_video_alert.jpg" class="img-responsive img-centered" alt="">
-                                <img src="img/sgc/sws_blog_alert.jpg" class="img-responsive img-centered" style="border: 1px solid black;" width="600">
+                                <!-- <img src="img/sgc/sws_blog_alert.jpg" class="img-responsive img-centered" style="border: 1px solid black;" width="600"> -->
                                 
                                 
-                                
-                                
-
-                                <img src="img/sgc/scoop_mockup_final.jpg" width="400" class="img-responsive img-centered" alt="">
                                 <img src="img/sgc/adedge_template.jpg" class="img-responsive img-centered" alt="" width="400">
 
                                 
@@ -586,7 +568,7 @@
                                 <img src="img/sgc/swsexpo_fees.jpg" class="img-responsive img-centered" alt="" style="border: 1px solid black">
                                 <img src="img/sgc/TD_home.jpg" class="img-responsive img-centered" alt="" style="border: 1px solid black">
                                 <img src="img/sgc/TD_agenda.jpg" class="img-responsive img-centered" alt="" style="border: 1px solid black">
-                                <img src="img/sgc/TD_sponsor.jpg" class="img-responsive img-centered" alt="" style="border: 1px solid black">
+                                <img src="img/sgc/TD_sponsors.jpg" class="img-responsive img-centered" alt="" style="border: 1px solid black">
                                 <img src="img/sgc/TD_speakers.jpg" class="img-responsive img-centered" alt="" style="border: 1px solid black">
                                 <img src="img/sgc/press_home.jpg" class="img-responsive img-centered" alt="" style="border: 1px solid black">
                                 <img src="img/sgc/press_speakers.jpg" class="img-responsive img-centered" alt="" style="border: 1px solid black">
